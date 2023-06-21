@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/favorito"
+            android:icon="@drawable/ic_favorite_border"
+            android:title="Favorito"
+            app:showAsAction="always"/>
+    <item
+            android:id="@+id/search"
+            android:title="Search"
+            android:icon="@drawable/ic_search"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+            app:showAsAction="always"/>
+    <item
+            android:id="@+id/editarperfil"
+            android:icon="@drawable/ic_add"
+            android:title="Editar perfil"/>
+    <item
+            android:id="@+id/compartir"
+            android:icon="@drawable/ic_share"
+            android:title="Compartir"/>
+    <item
+            android:id="@+id/salir"
+            android:icon="@drawable/ic_share"
+            android:title="Salir"/>
+</menu>
